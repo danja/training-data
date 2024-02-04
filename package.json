@@ -1,0 +1,27 @@
+{
+    "name": "training-data",
+    "version": "1.0.0",
+    "description": "data extractors for training data",
+    "type": "module",
+    "main": "src/pdf2txt.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "danja",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.15.4",
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    },
+    "dependencies": {
+        "pdfjs-dist": "^4.0.379"
+    },
+    "repository": "https://github.com/danja/training-data.git"
+}
