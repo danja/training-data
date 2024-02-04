@@ -22,3 +22,19 @@ npm install pdfjs-dist
 
 cd src
 node pdf2txt.js ../pdfs/llm-kg-completion.pdf
+
+next, markdown formatting
+
+instructions at :
+
+https://github.com/mozilla/pdf.js
+
+got me a browser pdf viewer, but I can't see where it gets the original formatting from the pdf.
+
+http://localhost:8888/web/viewer.html
+
+check pdf-js-notes.md
+
+node pdf2txt.js sample.pdf ../output/sample.md
+
+below 6, plain?

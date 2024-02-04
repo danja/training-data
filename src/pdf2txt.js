@@ -1,5 +1,5 @@
 
-import { extractTextFromPdf } from './pdfTextExtractorModule.js';
+import { extractTextFromPdf } from './pdfTextExtractor.js';
 import { writeFile } from 'fs/promises';
 import path from 'path';
 
